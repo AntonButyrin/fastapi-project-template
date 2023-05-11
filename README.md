@@ -44,17 +44,17 @@
 `poetry install`
 3) create postgres database
 4) create .env file in project for env variables:
-`migrations/`
-`src/`
-`core/`
-`main.py`
-`.env`  <- **create .env there**
-`.gitignore`
-`docker-compose.yml`
- `Dockerfile`
-`pyproject.toml`
-`README.md`
-`alembic.ini`
++ migrations/
++ src/
+	+ core/
+	+ main.py 
++ .env  <- **create .env there**
++ .gitignore
++ docker-compose.yml
++ Dockerfile
++ pyproject.toml
++ README.md
++ alembic.ini
 5) upgrade basic migrates:
 `poetry run alembic upgrade head`
 6) run application:
