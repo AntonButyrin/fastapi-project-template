@@ -63,9 +63,20 @@
 
 -------------
 ### Install and usage (with docker-compose)
-
-1) collecting an image:
+1) create .env file in project for env variables:
++ migrations/
++ src/
+	+ core/
+	+ main.py 
++ .env  <- **create .env there**
++ .gitignore
++ docker-compose.yml
++ Dockerfile
++ pyproject.toml
++ README.md
++ alembic.ini
+2) collecting an image:
 `docker-compose build`
-2) run container:
+3) run container:
 `docker-compose up`
-3) check success run on http://localhost:8000/ping, result : {"ping":"pong!"}
+4) check success run on http://localhost:8000/ping, result : {"ping":"pong!"}
