@@ -63,7 +63,7 @@
 
 -------------
 ### Install and usage (with docker-compose)
--------------
+
 1) collecting an image:
 `docker-compose build`
 2) run container:
