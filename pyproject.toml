@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fastapi-project-template"
+version = "0.1.0"
+description = ""
+authors = ["Anton Butyrin <butyrinhome@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+fastapi = {extras = ["all"], version = "^0.95.1"}
+sqlalchemy = "^2.0.13"
+asyncpg = "^0.27.0"
+alembic = "^1.10.4"
+psycopg2 = "^2.9.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

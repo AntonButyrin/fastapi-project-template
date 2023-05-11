@@ -1,0 +1,6 @@
+__pycache__/
+__pypackages__/
+.pytest_cache/
+.venv/
+.env
+poetry.lock
