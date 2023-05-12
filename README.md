@@ -80,3 +80,21 @@
 3) run container:
 `docker-compose up`
 4) check success run on http://localhost:8000/ping, result : {"ping":"pong!"}
+
+-------------
+### .env file template
+	// database
+	DB_HOST='project_template_db'
+	DB_PORT=5432
+	DB_NAME='name'
+	DB_USER='user'
+	DB_PASS='password'
+	
+	// allowed host
+	ALLOWED_HOST='http://localhost:8000'
+	
+	// admin credentails for /docs
+	USERNAME = 'admin'
+	PASSWORD = 'password'
+
+
